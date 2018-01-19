@@ -1,0 +1,317 @@
+<!doctype html>
+
+<html>
+	  <head>
+            <meta charset="UTF-8">
+            <title>Animated Style Sheet</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="CSS/MainCSS.css">
+            <script src="JS/MainJavaScript.js"></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+            <script src="JS/MainJavaScript.js"></script>
+            <script>
+                
+                var myVar;
+                function myFunction() 
+                {
+                    myVar = setTimeout(showPage, 3000);
+                }
+
+                function showPage() 
+                {
+                    document.getElementById("loader2").style.display = "none";
+                    document.getElementById("TextDiv").style.display = "block";
+                }
+          </script>
+        </head>
+
+	<body>
+
+        <div class="wrapper">
+              
+              <header class="col-12">
+                    <h1> Animated Style Sheet </h1><br/>
+                    <p>Web Animations. A variation of animations that are used every day in the web, Different examples and selections of what animation can be and look like made with HTML, CSS, JavaScript and JQuery. All of these animations either run themselves or are interactive.</p>
+              </header> <!-- ./row --> 
+            
+            <section class="col-12">   <!-- first row -->
+                
+            <h2>Animated Buttons - Hover States</h2><br/>
+            </section>
+              
+            <section id="space" class="row base-section">
+                <div class="col-3">
+                    <div class="btnwrapper">
+                    <div class="btn btn-1">
+                        <p>Hover over me</p>
+                    </div>
+                    </div>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                    <div class="btnwrapper">
+                    <div class="btn btn-2">
+                        <p>Hover over me</p>
+                    </div>
+                    </div>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                    <div class="btnwrapper">
+                    <div class="btn btn-3">
+                        <p>Hover over me</p>
+                    </div>
+                    </div>
+                </div> <!-- ./col-3 -->  
+                
+                <div class="col-3">
+                    <div class="btnwrapper">
+                    <div class="btn btn-4">
+                        <p>Hover over me</p>
+                    </div>
+                    </div>
+                </div> <!-- ./col-3 --> 
+                
+            </section> <!-- ./row base section --> 
+            
+            <section class="col-12"> <!-- second row -->
+                
+            <h2>Menu Animations - Hamburger Menu's</h2><br/>
+            </section>
+              
+            <section class="row base-section">
+                <div class="col-3">
+                    <div class="hamburger" id="hamburger-1">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                    <div class="col">
+                    <div class="hamburger" id="hamburger-2">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                    </div>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                    <div class="col">
+                    <div class="hamburger" id="hamburger-3">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                    </div>
+                </div> <!-- ./col-3 -->  
+                
+                <div class="col-3">
+                    <div class="col">
+                    <div class="hamburger" id="hamburger-4">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                    </div>
+                </div> <!-- ./col-3 --> 
+                
+            </section> <!-- ./row base section --> 
+            
+            <section class="col-12"> <!-- Third row -->
+                
+            <h2>Animated Text Image Overlays</h2>
+            </section>
+              
+            <section class="row base-section">
+                <div class="col-3">
+                    <div class="photo-grid">
+	                   <div>
+                            
+                            <figure>
+                            <img src="Images/beach.jpg">
+                            <figcaption><p>Beach</p></figcaption>
+                            </figure>
+                        
+                        </div>
+                    </div>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                    <div class="photo-grid">
+	                   <div>
+                            
+                            <figure>
+                            <img src="Images/northlights.jpg">
+                            <figcaption><p>Northern Lights</p></figcaption>
+                            </figure>
+                            
+                        </div>
+                    </div>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                    <div class="photo-grid">
+	                   <div>
+                            <figure>
+                            <img src="Images/sunset.jpg">
+                            <figcaption><p>Sunset</p></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div> <!-- ./col-3 -->  
+                
+                <div class="col-3">
+                    <div class="photo-grid">
+	                   <div>
+                            <figure>
+                            <img src="Images/harbour.jpg">
+                            <figcaption><p>Harbour</p></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div> <!-- ./col-3 --> 
+                
+            </section> <!-- ./row base section --> 
+            
+            <section class="col-12"> <!-- Fourth row -->
+                
+            <h2>Animated Toggles/Sliders, Check Boxes and Radio Buttons</h2>
+            </section>
+              
+            <section class="row base-section">
+                <div class="col-3">
+                    <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider"></span>
+                    </label>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                     <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                    </label>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                <div>
+                  <label>
+                    <input type="checkbox" class="option-input checkbox" checked />
+                    Checkbox
+                  </label>
+                  <label>
+                    <input type="checkbox" class="option-input checkbox" />
+                    Checkbox
+                  </label>
+                  <label>
+                    <input type="checkbox" class="option-input checkbox" />
+                    Checkbox
+                  </label>
+                </div>
+                </div> <!-- ./col-3 -->  
+                
+                <div class="col-3">
+                    <div>
+                      <label>
+                        <input type="radio" class="option-input radio" name="example" checked />
+                        Radio option
+                      </label>
+                      <label>
+                        <input type="radio" class="option-input radio" name="example" />
+                        Radio option
+                      </label>
+                      <label>
+                        <input type="radio" class="option-input radio" name="example" />
+                        Radio option
+                      </label>
+                    </div>
+                </div> <!-- ./col-3 --> 
+                
+            </section> <!-- ./row base section --> 
+            
+            <section class="col-12"> <!-- Fifth row -->
+                
+            <h2> AnimatedText</h2>
+            </section>
+              
+            <section class="row base-section">
+                <div class="col-12">
+                    <div class="sinir">
+                      <div class="box" id="box1">A</div>
+                      <div class="box" id="box2">n</div>
+                      <div class="box" id="box3">i</div>
+                      <div class="box" id="box4">m</div>
+                      <div class="box" id="box5">a</div>
+                      <div class="box" id="box1">t</div>
+                      <div class="box" id="box3">i</div>
+                      <div class="box" id="box4">o</div>
+                      <div class="box" id="box5">n</div>
+                    </div>
+                </div> <!-- ./col-12 --> 
+                
+            </section> <!-- ./row base section --> 
+            
+            <section class="col-12"> <!-- Sixth row -->
+                
+            <h2> Animated Loading Cycles </h2><br/>
+            </section>
+              
+            <section class="row base-section">
+                <div class="col-3">
+                    <div class="loader"></div>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                    <div id="loaderDiv">
+                        <div id="loader2"></div>
+                        <div style="display:none;" id="TextDiv" class="animatebottom">
+                          <h2>The Page Has Loaded</h2>
+                          <p>This is my newly loaded page..</p>
+                        </div>
+                    </div>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                    <div class="loader3" id="loader-3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div> <!-- ./col-3 -->  
+                
+                <div class="col-3">
+                    <div class="loader4" id="loader-4"></div>
+                </div> <!-- ./col-3 --> 
+                
+            </section> <!-- ./row base section --> 
+            
+            <section class="col-12"> <!-- Seventh row -->
+                
+            <h2> Transition Animations </h2><br/>
+            </section>
+              
+            <section class="row base-section">
+                <div class="col-3">
+                    <div id="block">
+                    <div id="colorMove"></div>
+                    </div>
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                </div> <!-- ./col-3 -->
+                        
+                <div class="col-3">
+                </div> <!-- ./col-3 -->  
+                
+                <div class="col-3">
+                </div> <!-- ./col-3 --> 
+                
+            </section> <!-- ./row base section -->   
+             
+            </div> <!-- ./wrapper -->
+
+	</body>
+</html>
